@@ -80,3 +80,38 @@ body {
 }
 
 /* navbar styling */
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 180px; /* Adjust the width as needed */
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 1000; /* Ensure the navbar is above other elements */
+    gap: 50px;
+}
+
+/* Style your navbar links, icons, or other content as needed */
+nav li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+nav a {
+    color: var(--color-white);
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Adjust the styling for the active link if needed */
+nav a:hover {
+    color: var(--color-red);
+}
