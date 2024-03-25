@@ -11,6 +11,7 @@
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
+  --p-font-size: 1.125rem;
   --normal-font-size: .938rem;
   --small-font-size: .813rem;
 
@@ -38,80 +39,84 @@ body {
     background-color: var(--color-black);
 }
 
-/* sidebar styling */
-.sidebar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 400px; /* Adjust the width as needed */
-    background-color: #1a1a1a25;
-    box-shadow: -10px 0 10px rgb(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    z-index: 1500; /* Ensure the navbar is above other elements */
-    gap: 50px;
-    padding: 0 40px;
-}
-
-.sidebar li {
-    width: 100%;
-    list-style: none;
+/* header styling */
+header {
+    max-width: 1200px;
+    margin: 133px 92px;
+    height: auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: start;
     justify-content: center;
+    gap: 32px;
 }
 
-.sidebar a {
-    width: 100%;
+.title {
     color: var(--color-white);
-    font-family: 'DM Sans', sans-serif;
-    text-decoration: none;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-.sidebar a:hover {
-    color: var(--color-red);
-}
-
-/* navbar styling */
-nav {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 180px; /* Adjust the width as needed */
-    background-color: var(--color-black);
+    width: auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: start;
     justify-content: center;
-    z-index: 1000; /* Ensure the navbar is above other elements */
-    gap: 50px;
+    gap: 20px;
 }
 
-/* Style your navbar links, icons, or other content as needed */
-nav li {
-    list-style: none;
+.title .logo {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: start;
     justify-content: center;
+    gap: 8px;
+    transition: all 3s ease;
 }
-nav a {
+
+.title .logo img {
+    width: 50px;
+}
+
+.title .logo h1 a {
     color: var(--color-white);
-    font-family: 'DM Sans', sans-serif;
-    text-decoration: none;
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 48px;
+    font-family: 'Rubik', sans-serif;
 }
 
-/* Adjust the styling for the active link if needed */
-nav a:hover {
-    color: var(--color-red);
+.title .logo:hover {
+    text-decoration: underline;
+}
+
+.title h2 {
+    font-size: var(--biggest-font-size);
+    font-family: 'PT Mono', sans-serif;
+    font-weight: var(--font-regular);
+}
+
+.title p {
+    font-size: var(--h2-font-size);
+    font-family: 'DM Sans', sans-serif;
+    color: var(--color-green);
+}
+
+.title p a {
+    color: var(--color-green);
+    text-decoration: underline;
+}
+
+.title p a:hover {
+    text-decoration: none;
+}
+
+.bio {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.bio p {
+    font-size: var(--p-font-size);
+    font-weight: var(--font-regular);
+    font-family: 'PT Mono', sans-serif;
+    line-height: 2;
+    color: var(--color-white);
 }
