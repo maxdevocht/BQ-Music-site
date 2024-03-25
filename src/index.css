@@ -3,7 +3,8 @@
 :root {
   --color-white: #f2f2f2;
   --color-black: #1a1a1a;
-  --color-grey: #7f7f7f;
+  --color-grey: #828282;
+  --color-grey-dark: #424242;
   --color-green: #04b861;
   --color-red: #f15726;
 
@@ -119,4 +120,27 @@ header {
     font-family: 'PT Mono', sans-serif;
     line-height: 2;
     color: var(--color-white);
+}
+
+/* main styling */
+
+main {
+    max-width: 1200px;
+    margin: 133px 92px;
+    display: flex;
+    align-items: center;
+}
+
+.work {
+    padding: 5px 10px;
+    border: 1px solid var(--color-white);
+    border-radius: 1rem;
+    background-color: var(--color-black);
+}
+
+.work h2 {
+    color: var(--color-white);
+    font-size: var(--small-font-size);
+    font-weight: var(--font-regular);
+    font-family: 'PT Mono', sans-serif;
 }
