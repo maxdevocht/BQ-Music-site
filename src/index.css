@@ -134,6 +134,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 32px;
 }
 
 .section--label {
@@ -148,4 +149,11 @@ main {
     font-size: var(--small-font-size);
     font-weight: var(--font-regular);
     font-family: 'PT Mono', sans-serif;
+}
+
+.section--title {
+    font-size: var(--h1-font-size);
+    font-family: 'PT Mono', sans-serif;
+    font-weight: var(--font-regular);
+    color: var(--color-white);
 }
