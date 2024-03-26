@@ -5,7 +5,7 @@ export default function Main() {
         <main>
             <div className="content">
                 <div className="work">
-                    <h2 id="work">Recent Werk</h2>
+                    <h2 id="work" className="section--title">Recent Werk</h2>
                 </div>
             </div>
         </main>

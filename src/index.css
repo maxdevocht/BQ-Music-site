@@ -123,10 +123,9 @@ header {
 }
 
 /* main styling */
-
 main {
     max-width: 1200px;
-    margin: 133px 92px;
+    margin: 32px 92px;
     display: flex;
     align-items: center;
 }
@@ -138,7 +137,7 @@ main {
     background-color: var(--color-black);
 }
 
-.work h2 {
+.work .section--title {
     color: var(--color-white);
     font-size: var(--small-font-size);
     font-weight: var(--font-regular);
