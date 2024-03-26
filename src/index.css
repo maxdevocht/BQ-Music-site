@@ -130,7 +130,7 @@ main {
     align-items: center;
 }
 
-.section--work {
+.section--categorie {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
