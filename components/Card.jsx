@@ -1,5 +1,6 @@
 import React from "react"
 import { Splide, SplideSlide } from '@splidejs/react-splide'
+import "@splidejs/react-splide/css";
 
 export default function Card(props) {
 
@@ -11,19 +12,21 @@ export default function Card(props) {
                     options={ {
                         rewind: true,
                         gap   : '1rem',
-                        perPage: 2,
-                        height : '1rem',
+                        perPage: 1,
+                        height: '15rem',
+                        width: '30rem',
+                        type: 'loop',
                     } }
                     aria-label="My Favorite Images"
                     >
                     <SplideSlide>
-                        <img src="image1.jpg" alt="Image 1"/>
+                        <img className="slider" src="./images/3.svg" alt="Image 1"/>
                     </SplideSlide>
                     <SplideSlide>
-                        <img src="image2.jpg" alt="Image 2"/>
+                        <img className="slider" src="./images/4.svg" alt="Image 2"/>
                     </SplideSlide>
                     <SplideSlide>
-                        <img src="image3.jpg" alt="Image 3"/>
+                        <img className="slider" src="./images/5.svg" alt="Image 3"/>
                     </SplideSlide>
                 </Splide>
             </div>

@@ -42,6 +42,8 @@ a {
 
 img {
     object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 body {
@@ -204,9 +206,21 @@ main {
     align-items: center;
 }
 
+.card {
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid var(--color-grey-dark);
+    border-radius: 1rem;
+}
+
 .card--title {
     font-size: var(--h1-font-size);
     font-family: 'PT Mono', sans-serif;
     font-weight: var(--font-regular);
     color: var(--color-white);
+    margin-bottom: 1rem;
+}
+
+.slider {
+    border-radius: 1rem;
 }
