@@ -192,7 +192,15 @@ main {
     font-family: 'PT Mono', sans-serif;
 }
 
-.section--title {
+/* cards styling */
+.cards {
+    max-width: 1200px;
+    margin: 32px 92px;
+    display: flex;
+    align-items: center;
+}
+
+.card--title {
     font-size: var(--h1-font-size);
     font-family: 'PT Mono', sans-serif;
     font-weight: var(--font-regular);
