@@ -8,7 +8,7 @@ export default function Main() {
                     <div className="section--label">
                         <h2 id="work" className="label">Recent Werk</h2>
                     </div>
-                    <div className="card">
+                    {/* <div className="card">
                         <h1 className="section--title">SansAmp Overdrive & Aguilar TLC Compressor</h1>
                         
                     </div>
@@ -29,9 +29,9 @@ export default function Main() {
                     </div>
                     <div className="card">
                         <h1 className="section--title">Wiring Harness</h1>
-                    </div>
+                    </div> */}
                 </div>
-                <div className="section--categorie">
+                {/* <div className="section--categorie">
                     <div className="section--label">
                         <h2 id="review" className="label">Reviews</h2>
                     </div>
@@ -41,8 +41,7 @@ export default function Main() {
                     <div className="section--label">
                         <h2 id="artiesten" className="label">Artiesten</h2>
                     </div>
-                    
-                </div>
+                </div> */}
             </div>
         </main>
     )
