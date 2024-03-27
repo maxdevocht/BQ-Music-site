@@ -202,15 +202,16 @@ main {
 .cards {
     max-width: 1200px;
     margin: 32px 92px;
-    display: flex;
-    align-items: center;
 }
 
 .card {
     max-width: 500px;
     padding: 20px;
-    border: 1px solid var(--color-grey-dark);
     border-radius: 1rem;
+    background: #1a1a1a;
+    background: linear-gradient(90deg, rgb(41, 41, 41) 35%, rgb(45, 45, 45) 65%, rgb(44, 44, 44) 98%);
+    box-shadow:  14px 14px 28px #141414,
+             -14px -14px 28px #202020;
 }
 
 .card--title {
