@@ -10,6 +10,7 @@ export default function Main() {
                     </div>
                     <div className="card">
                         <h1 className="section--title">SansAmp Overdrive & Aguilar TLC Compressor</h1>
+                        
                     </div>
                     <div className="card">
                         <h1 className="section--title">Jazzbass X-blend Wiring</h1>
