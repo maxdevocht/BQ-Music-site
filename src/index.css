@@ -92,7 +92,7 @@ body {
 /* header styling */
 header {
     max-width: 1200px;
-    margin: 133px 92px;
+    margin: 133px 292px 133px 92px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -174,7 +174,7 @@ header {
 /* main styling */
 main {
     max-width: 1200px;
-    margin: 32px 92px;
+    margin: 32px 292px 32px 92px;
     display: flex;
     align-items: center;
 }
@@ -203,10 +203,13 @@ main {
 /* cards styling */
 .cards {
     max-width: 1200px;
-    margin: 32px 92px;
+    margin: 32px 0 0 92px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card {
+    flex: 0 500px;
     max-width: 500px;
     padding: 20px;
     border-radius: 1rem;
